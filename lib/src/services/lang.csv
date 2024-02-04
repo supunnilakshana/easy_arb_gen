@@ -1,0 +1,85 @@
+key,english,sinhala
+language,English,සිංහල
+welcomeBack,Welcome Back,ආපසු සාදරයෙන් පිළිගනිමු
+email,Email,විද්යුත් තැපෑල
+enterEmailAddress,Enter email address,ඊමේල් ලිපිනය ඇතුලත් කරන්න
+password,Password,මුරපදය
+enterPassword,Enter password,මුරපදය ඇතුළත් කරන්න
+forgotPassword,Forgot Password?,මුරපදය අමතක වුණා ද?
+signIn,Sign In,පුරන්න
+signUp,Sign Up,ලියාපදිංචි වන්න
+dontHaveAnAccount,Don't have an account?,ගිණුමක් නැද්ද?
+changePassword,Change Password,මුරපදය වෙනස්කරන්න
+oldPassword,Old Password,පැරණි මුරපදය
+enterOldPassword,Enter Old Password,පැරණි මුරපදය ඇතුළත් කරන්න
+newPassword,New Password,නව මුරපදය
+enterNewPassword,Enter New Password,නව මුරපදය ඇතුළත් කරන්න
+confirmNewPassword,Confirm New Password,නව මුරපදය තහවුරු කරන්න
+enterConfirmNewPassword,Enter Confirm New Password,නව මුරපදය තහවුරු කරන්න ඇතුලත් කරන්න
+updatePassword,Update Password,මුරපදය යාවත්කාලීන කරන්න
+resetYourPassword,Rest Your Password,ඔබගේ මුරපදය විවේක ගන්න
+email,Email,විද්යුත් තැපෑල
+enterEmailAddress,Enter Email Address,ඊමේල් ලිපිනය ඇතුලත් කරන්න
+ifYouHaveAccountAssociateWithThisEmailWeWillSendTheRecoverLink,If you have account associate with this email we will send the recover link?,ඔබට මෙම විද්‍යුත් තැපෑල සමඟ සම්බන්ධිත ගිණුම් තිබේ නම් අපි ප්‍රතිසාධන සබැඳිය එවන්නෙමුද?
+sendVerificationLink,Send Verification link,සත්‍යාපන සබැඳිය යවන්න
+hello,Hello!!,ආයුබෝවන්!!
+registerToKLMS,Register to KLMS,KLMS වෙත ලියාපදිංචි වන්න
+fullName,Full Name,සම්පූර්ණ නම
+enterEmail,Enter Email,ඊමේල් ඇතුලත් කරන්න
+phoneNumber,Phone Number,දුරකථන අංකය
+address,Address,ලිපිනය
+city,City,නගරය
+selectCity,Select City,නගරය තෝරන්න
+confirmPassword,Confirm Password,මුරපදය තහවුරු කරන්න
+checkYourSMSBox,Check Your SMS Box,ඔබගේ SMS පෙට්ටිය පරීක්ෂා කරන්න
+checkYourSMSAndEnterOTPCode,Check Your SMS & Enter OTP Code ,ඔබගේ SMS පරීක්ෂා කර OTP කේතය ඇතුලත් කරන්න
+resendOTP,Resend OTP,OTP නැවත යවන්න
+noteOTPExpiresIn,Note: OTP expires in ,සටහන: OTP කල් ඉකුත් වේ
+verifyYourPhone,Verify Your Phone,ඔබගේ දුරකථනය තහවුරු කරන්න
+enterConfirmPassword,Enter Confirm Password,තහවුරු මුරපදය ඇතුලත් කරන්න
+enterAddress,Enter Address,ලිපිනය ඇතුලත් කරන්න
+enterFullName,Enter Full Name,සම්පූර්ණ නම ඇතුලත් කරන්න
+enterPhoneNumber,Enter Phone Number,දුරකථන අංකය ඇතුලත් කරන්න
+alreadyHaveAnAccount,Already have an Account ? ,දැනටමත් ගිණුමක් තිබේද?
+reset,Reset,යළි පිහිටුවන්න
+information,Information,තොරතුරු
+courses,Courses,පාඨමාලා
+profile,Profile,පැතිකඩ
+myVideos,My Videos,මගේ වීඩියෝ
+coursesAvailable,courses are available,පාඨමාලා  තිබේ
+minutes,minutes,මිනිත්තු
+view,View,දැක්ම
+lKR,LKR,රුපියල්
+buyNow,BUY NOW,දැන් මිලදී ගන්න
+downloads,downloads,බාගත කිරීම්
+payments,Payments,ගෙවීම
+courseDetails,Course Details,පාඨමාලා විස්තර
+course,Course,පාඨමාලාව
+teacher,Teacher,ගුරුවරයා
+package,Package,පැකේජය
+paymentMethods,Payment Methods,ගෙවීමේ ක්රමවේද
+or,OR,හෝ
+bankDetails,Bank Details,බැංකු තොරතුරු
+accountName,Account Name,ගිණුමේ නම
+accountNo,Account No,ගිණුම් අංකය
+bankName,Bank Name,බැංකුවේ නම
+brach,Brach,ශාඛාව
+areAvailable,are available,ක් තිබේ
+courseAreNotAvalable,Course are not avalable,පාඨමාලා නොමැත
+videos,Videos,වීඩියෝ
+onlinePayment,Online Payment,මාර්ගගත ගෙවීම්
+teachers,Teachers,ගුරුවරු
+myCourses,My Courses,මගේ පාඨමාලා
+continueToWatching,Continue to watching,නැරඹීම දිගටම කරගෙන යන්න
+hi,HI,හායි
+signOut,Sign Out,ලොග් අවුට් වෙන්න
+accountSettings,Account Settings,ගිණුම් සැකසුම්
+more,More,තව
+editProfile,Edit Profile,පැතිකඩ සංස්කරණය කරන්න
+changeProfile,Change Profile,පැතිකඩ වෙනස් කරන්න
+privacyPolicy,Privacy Policy,රහස්යතා ප්රතිපත්තිය
+contactUs,Contact Us,අපව අමතන්න
+aboutUs,About Us,අපි ගැන
+areYouSureToSignOutFromTheApp,Are you sure to sign out from the app,ඔබට යෙදුමෙන් ලොග් අවුට්  වීමට විශ්වාසද
+dismiss,Dismiss,අස් කරන්න
+confirm,Confirm,තහවුරු කරන්න
