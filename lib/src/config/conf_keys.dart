@@ -7,4 +7,6 @@ class ConfigKeys {
   static const pubspecPackageSectionId = 'easy_arb_gen';
   static const langList = 'langs';
   static const isDescriptionHave = 'is_description_have';
+  static const description = 'description';
+  static const localeTag = "@@locale";
 }
