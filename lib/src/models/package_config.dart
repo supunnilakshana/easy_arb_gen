@@ -39,7 +39,6 @@ class PackageConfig {
   }
 
   factory PackageConfig.fromMap(Map<dynamic, dynamic> map) {
-    print(map[ConfigKeys.csvOptions]);
     return PackageConfig(
       csvFilepath: map[ConfigKeys.csvFilepath] as String,
       outputDirectory: map[ConfigKeys.outputDirectory] as String,

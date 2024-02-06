@@ -14,21 +14,25 @@ class ArbService {
     data[ConfigKeys.localeTag] = lang;
     if (!ishaveDescription) {
       for (final line in lines) {
-        final row = line.split(',');
-        final key = row[0];
-        final value = row[index];
-        final descriptionVal = {ConfigKeys.description: " "};
-        data[key] = value;
-        data["@$key"] = descriptionVal;
+        if (line.isNotEmpty) {
+          final row = line.split(',');
+          final key = row[0].trim();
+          final value = row[index];
+          final descriptionVal = {ConfigKeys.description: " "};
+          data[key] = value;
+          data["@$key"] = descriptionVal;
+        }
       }
     } else {
       for (final line in lines) {
-        final row = line.split(',');
-        final key = row[0];
-        final value = row[index + 1];
-        final descriptionVal = {ConfigKeys.description: row[1]};
-        data[key] = value;
-        data["@$key"] = descriptionVal;
+        if (line.isNotEmpty) {
+          final row = line.split(',');
+          final key = row[0].trim();
+          final value = row[index + 1];
+          final descriptionVal = {ConfigKeys.description: row[1]};
+          data[key] = value;
+          data["@$key"] = descriptionVal;
+        }
       }
     }
     final arbFile = File(arbFilePath);
@@ -36,15 +40,20 @@ class ArbService {
   }
 
   genarateArb(PackageConfig packageConfig) {
-    for (var index = 0;
-        index < packageConfig.csvOptions.langs.length;
-        index++) {
-      String lang = packageConfig.csvOptions.langs[index].toString();
-      String outFileName = "${packageConfig.outputFilePrepend + lang}.arb";
-      String outFilePath = "${packageConfig.outputDirectory}/$outFileName";
+    try {
+      for (var index = 0;
+          index < packageConfig.csvOptions.langs.length;
+          index++) {
+        String lang = packageConfig.csvOptions.langs[index].toString();
+        String outFileName = "${packageConfig.outputFilePrepend + lang}.arb";
+        String outFilePath = "${packageConfig.outputDirectory}/$outFileName";
 
-      _csvToArb(packageConfig.csvFilepath, outFilePath, index + 1, lang,
-          packageConfig.csvOptions.ishaveDescription);
+        _csvToArb(packageConfig.csvFilepath, outFilePath, index + 1, lang,
+            packageConfig.csvOptions.ishaveDescription);
+      }
+    } catch (_) {
+      print("Invalid csv value!!");
+      exit(1);
     }
   }
 }

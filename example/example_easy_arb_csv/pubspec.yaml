@@ -1,0 +1,52 @@
+name: example_easy_arb_csv
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  easy_arb_gen:
+    path: "C:/Supun/Professional/Development/My projects/Flutter/packages/easy_arb_gen"
+
+
+easy_arb_gen:
+  csv_filepath: "assets/lang/app_lang.csv"
+  output_directory: "lib/l10n"
+  output_file_prepend: "app_"
+  csv_options:
+    langs: 
+      - en
+      - es
+      - fr
+    is_description_have: true
+  
+  
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+ 
