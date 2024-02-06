@@ -89,7 +89,6 @@ Now that you've configured the `easy_arb_gen` section in your `pubspec.yaml` fil
 dart run package:easy_csv_to_arb
 ```
 
-## Additional information
 
 ## Additional information
 
