@@ -1,0 +1,6 @@
+# .pubignore
+
+# Example of excluding files or directories from being published
+example/.fvm/flutter_sdk
+example/.fvm/fvm_config.json
+example/
