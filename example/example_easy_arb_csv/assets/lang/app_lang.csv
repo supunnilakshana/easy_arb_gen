@@ -2,6 +2,6 @@ key,description,en,es,fr
 app_title,The main app title,My App,Mi Aplicación,Mon Application
 welcome_message,A welcome message,Welcome,Bienvenido,Bienvenue
 menu_settings,Settings menu,Configuración,Configuración,Paramètres
-label_username,Username label,Nombre de usuario,Nom d'utilisateur,Nom d'utilisateur
 
-label_password,Password label,Contraseña,Mot de passe
+
+label_username,Username label,Nombre de usuario,Nom d'utilisateur,Nom d'utilisateur

@@ -1,16 +1,15 @@
-// import 'package:eassy_arb_gen/eassy_arb_gen.dart';
+// Test cases will be writtenimport 'package:test/test.dart';
+// import 'package:easy_arb_gen/src/easy_arb_gen_base.dart';
+
 // import 'package:test/test.dart';
 
 // void main() {
-//   group('A group of tests', () {
-//     final awesome = Awesome();
+//   group('EasyArbGen Tests', () {
+//     test('runJob - Valid Configuration', () {
+//       final easyArbGen = EasyArbGen();
 
-//     setUp(() {
-//       // Additional setup goes here.
+//       expect(() => easyArbGen.runJob(), returnsNormally);
 //     });
 
-//     test('First Test', () {
-//       expect(awesome.isAwesome, isTrue);
-//     });
 //   });
 // }
