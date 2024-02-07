@@ -1,5 +1,5 @@
 <!-- 
-This README describes the easy_csv_to_arb package. If you publish this package to pub.dev,
+This README describes the easy_arb_gen package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
 
 For information about how to write a good package README, see the guide for
@@ -11,9 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-# easy_csv_to_arb
+# easy_arb_gen
 
-The `easy_csv_to_arb` package provides a simple and convenient way to convert CSV language files to ARB files for localization in Flutter projects.
+The `easy_arb_gen` package provides a simple and convenient way to convert CSV language files to ARB files for localization in Flutter projects.
 
 ## Features
 
@@ -27,14 +27,14 @@ The `easy_csv_to_arb` package provides a simple and convenient way to convert CS
 Add this to your pubspec.yaml file:
 
   dev_dependencies:
-    easy_csv_to_arb: ^<LATEST_VERSION>
+    easy_arb_gen: ^<LATEST_VERSION>
 
 
 ## Getting started
 
 ### Supporting CSV Templates
 
-The `easy_csv_to_arb` package is designed to support two types of CSV templates, offering flexibility in managing localization data for your Flutter projects:
+The `easy_arb_gen` package is designed to support two types of CSV templates, offering flexibility in managing localization data for your Flutter projects:
 
 ### 1. Normal CSV Template
 
@@ -86,7 +86,7 @@ Now that you've configured the `easy_arb_gen` section in your `pubspec.yaml` fil
 2. Run the following command:
 
 ```bash
-dart run package:easy_csv_to_arb
+dart run package:easy_arb_gen
 ```
 
 
@@ -94,7 +94,7 @@ dart run package:easy_csv_to_arb
 
 If you encounter any issues or have suggestions for improvement, feel free to [file an issue](https://github.com/supunnilakshana/easy_arb_gen/issues). Your feedback is valuable, and we appreciate your help in making this package better.
 
-Contributions are welcome! If you'd like to contribute to the development of the `easy_csv_to_arb` package, check out the [contribution guidelines](https://github.com/supunnilakshana/easy_arb_gen) to get started. We look forward to your contributions!
+Contributions are welcome! If you'd like to contribute to the development of the `easy_arb_gen` package, check out the [contribution guidelines](https://github.com/supunnilakshana/easy_arb_gen) to get started. We look forward to your contributions!
 
 
 

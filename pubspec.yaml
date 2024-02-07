@@ -1,6 +1,6 @@
 name: easy_arb_gen
 description: csv_to arb gen
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/supunnilakshana/easy_arb_gen
 
 environment:

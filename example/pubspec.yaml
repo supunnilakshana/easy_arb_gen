@@ -24,8 +24,7 @@ dev_dependencies:
 
 
   flutter_lints: ^2.0.0
-  easy_arb_gen:
-    path: "C:/Supun/Professional/Development/My projects/Flutter/packages/easy_arb_gen"
+  easy_arb_gen: ^1.0.1
 
 
 easy_arb_gen:
